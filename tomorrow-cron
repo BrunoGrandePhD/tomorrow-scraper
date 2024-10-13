@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+BASH_ENV=/app/container.env
+
+1 * * * * cd /app && python -m tomorrow > /proc/1/fd/1 2>/proc/1/fd/2
